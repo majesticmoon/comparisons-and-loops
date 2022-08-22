@@ -1,0 +1,26 @@
+# indexing a list of given numbers via user input
+def multiple(m, n):
+    return True if m % n == 0 else False
+
+
+
+n = int(input("Please enter number: "))
+
+h = (multiple(n, 5))
+i = (multiple(n, 6))
+a = h and i
+
+
+print("Your number is divisible by 5:", (h))
+print("Your number is divisible by 6:",(i))
+
+if h and i == 0:
+    print("Your number is divisible by both 5 or 6")
+else:
+    print("Your number is not divisible by both 5 and 6")
+    
+    
+if h and i == 0:
+    print("Your number is divisible by neither 5 or 6")
+else:
+    print("Your number is divisible by either 5 or 6")
