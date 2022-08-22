@@ -1,0 +1,4 @@
+word = input("Enter word: ")
+result = word[0].upper() + word[1].upper() + word[2].upper()+ word[3].upper()+ word[4:] 
+
+print(result)
