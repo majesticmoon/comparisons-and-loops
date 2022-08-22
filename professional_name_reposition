@@ -1,0 +1,5 @@
+fullname= input("Enter name:")
+fullname.split()
+first=fullname.split()[0]
+last=fullname.split()[-1]
+print(last + ',' + " " + first)
