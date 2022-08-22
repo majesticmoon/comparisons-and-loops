@@ -1,0 +1,6 @@
+# lopping throough minimum and maximum values that are divisible by 3 bassed on user input 
+min = int(input("Enter min: "))
+max = int(input("Enter max: "))
+for x in range(min, max):
+    if x%3==0:
+        print(x)
